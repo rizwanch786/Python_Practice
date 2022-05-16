@@ -6,5 +6,5 @@ l = [True, False, [1,2,3],1,1.0,3]
 # print(filtered_list)
 
 def filtered_list(l):
-    return [str(i) for i in l if (type(i) == int or type(i) == float)]
+    return [str(i) for i in l if type(i) in [int, float]]
 print (filtered_list(l))

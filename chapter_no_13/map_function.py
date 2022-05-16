@@ -23,9 +23,7 @@ sequares_new = [num**2 for num in numbers]
 print(sequares_new)
 
 # Simple way to display list sequares
-new_numbers = []
-for i in numbers:
-    new_numbers.append(i**2)
+new_numbers = [i**2 for i in numbers]
 print(new_numbers)
 
 # Example using map function that take a list and return length of every string in the list
@@ -39,6 +37,6 @@ leng = map(len,string)
 # it iterate only one time, if we use it again and again means use many time then convert it into list and iterate many time
 # like:
 it = list(leng)
-print([i for i in it])
-print([i for i in it])
+print(list(it))
+print(list(it))
 # :-)

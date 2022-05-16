@@ -26,5 +26,5 @@ class Smartphone(Phone):
 # objects created
 p1 = Phone("Nokia", "1600", 3600)
 s1 = Smartphone("Sumsung", "A30", 30000, "4Gb", "64GB", "32MP")
-print(p1.full_name() + f" and price is {p1._price}")
-print(s1.full_name() + f" and price is {s1._price}")
+print(f"{p1.full_name()} and price is {p1._price}")
+print(f"{s1.full_name()} and price is {s1._price}")

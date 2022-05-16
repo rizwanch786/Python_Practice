@@ -1,7 +1,7 @@
 for i in range (1,11):
     print(i)
 
-for i in range (1,11,1):
+for i in range(1, 11):
     print(i)
 
 # for odd number's we start from 1 and take step:2

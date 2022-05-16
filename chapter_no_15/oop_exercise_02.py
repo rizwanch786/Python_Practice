@@ -7,7 +7,7 @@ class Laptop:
         self.brand_name = brand
         self.model_name = model
         self.price = price
-        self.laptop = brand + " " + model
+        self.laptop = f"{brand} {model}"
 
     def calculate_discount(self, d):
         return (f"Total price after {d}% discount : {self.price - ((d/100)*self.price)}")

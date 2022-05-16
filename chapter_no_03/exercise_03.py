@@ -3,9 +3,5 @@
 # print total from 1-n
 
 n = int (input ("Enter a number: "))
-sum = 0
-i = 1
-while i <= n:
-    sum += i
-    i += 1
+sum = sum(range(1, n + 1))
 print (f"Sum: {sum}")

@@ -6,8 +6,6 @@
 #     i = i + 1
 
 sum = 0
-i = 1
-while i <= 10:
+for i in range(1, 11):
     sum = sum + i
-    i = i + 1
 print(f"Sum of (1-10) : {sum}")

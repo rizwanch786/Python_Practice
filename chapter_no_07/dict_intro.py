@@ -9,6 +9,8 @@
     A: unordered collections of data in key : value pair
     """
 
+
+
     # How to create dictionaries?
     # # method_01
     # user = {'name':'Rizwan', 'age':21}
@@ -33,10 +35,8 @@
     #     'fav_tunes':['iphone', 'huawei']
     # }
     # print (user_info)
-    # print (user_info['fav_movies'])
-# how to add data to empty dictionary
-userinfo2 = {}
-userinfo2['name'] = 'Chaudhary'
+    # print (user_info['fav_movies'])# how to add data to empty dictionary
+userinfo2 = {'name': 'Chaudhary'}
 print(userinfo2)
 #  example
 d = {'dog' : 'has a tail and goes woof!',

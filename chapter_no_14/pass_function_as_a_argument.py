@@ -8,10 +8,7 @@ print (list(map(square,l)))
 print(list(map(lambda a : a**2, l)))
 # we define own function that receive an function as parameter
 def my_map(func,l):
-    new_list = []
-    for i in l:
-        new_list.append(func(i))
-    return new_list
+    return [func(i) for i in l]
 # function call
 print(my_map(square,l))
 # using lambda expression

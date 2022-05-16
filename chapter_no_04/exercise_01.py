@@ -11,10 +11,7 @@
 # greater_number(a,b)
 # ************************** OR ****************************************
 def fun(x,y):
-    if x>y:
-        return x
-    else:
-        return y
+    return x if x>y else y
 
 
 a = int (input("Enter first value: "))

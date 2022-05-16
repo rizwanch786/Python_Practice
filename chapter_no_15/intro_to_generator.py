@@ -9,8 +9,7 @@ nums(10)
 
 # generator function
 def numbers(n):
-    for i in range (1, n+1):
-        yield i
+    yield from range (1, n+1)
 # print(numbers(10)) # it give an geretor object that iterator
 # for i in numbers(10):
 #     print(i)

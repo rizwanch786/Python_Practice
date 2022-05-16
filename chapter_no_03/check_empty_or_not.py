@@ -1,5 +1,4 @@
-name = input ("Enter your name: ")
-if name:
+if name := input("Enter your name: "):
     print("not Empty")
 else:
     print("Empty")

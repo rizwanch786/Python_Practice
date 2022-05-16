@@ -26,7 +26,5 @@ print(list(l2))
 # # l1 = [1, 3, 5, 7]
 # # l2 = [2, 4, 6, 8]
 # using zip function compare both lists which list is greater
-new_list = []
-for pairs in zip(l1,l2):
-    new_list.append(max(pairs))
+new_list = [max(pairs) for pairs in zip(l1,l2)]
 print(new_list)

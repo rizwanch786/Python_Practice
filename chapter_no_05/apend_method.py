@@ -7,8 +7,5 @@ ages.append(35)
 print(ages)
 
 
-fruits = []
-fruits.append("Apple")
-fruits.append("Mango")
-fruits.append("Banana")
+fruits = ["Apple", "Mango", "Banana"]
 print(fruits)

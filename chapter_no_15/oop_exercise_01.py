@@ -6,7 +6,7 @@ class Laptop:
         self.brand_name = brand
         self.model_name = model
         self.price = price
-        self.laptop = brand + " " + model
+        self.laptop = f"{brand} {model}"
 
 # object's
 l1 = Laptop('HP', 'M3', 29000)
