@@ -1,8 +1,5 @@
 def sequare_list(l):
-    sequare = []
-    for i in l:
-        sequare.append(i**2)
-    return sequare
+    return [i**2 for i in l]
 
 
 user_list = list(range(1,5))

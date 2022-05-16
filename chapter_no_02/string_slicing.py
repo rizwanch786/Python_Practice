@@ -2,7 +2,7 @@
 # syntax: variabe[start argument : stop argument + 1]
 language = "python"
 
-print (language[0:3])
+print(language[:3])
 print (language[1:4])
 print (language[4:6])
 

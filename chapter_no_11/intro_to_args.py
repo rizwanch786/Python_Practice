@@ -7,10 +7,7 @@ print (total(5,7))
 # *args: is use too pass miultiple values to a function it make a tupple of passed values
 
 def all_total(*args):
-    total = 0
-    for i in args:
-        total += i
-    return total
+    return sum(args)
 print (all_total(1,2,3,4,5,6,7,8,9,10))
 
 # *args with normal parameters

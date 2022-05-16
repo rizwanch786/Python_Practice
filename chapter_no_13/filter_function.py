@@ -21,7 +21,5 @@ l_even = [i for i in numbers if i%2 == 0]
 print(l_even)
 
 # Simple function
-simple_even = []
-for i in numbers:
-    simple_even.append(i%2 == 0)
+simple_even = [i%2 == 0 for i in numbers]
 print(simple_even)

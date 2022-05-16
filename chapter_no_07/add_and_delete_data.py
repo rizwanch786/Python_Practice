@@ -1,12 +1,12 @@
 user_info = {
-    'name' : 'Rizwan',
-    'age' : 21,
-    'fav_movies' : ['Tare Naam', 'Race'],
-    'fav_tunes' : ['iphone', 'huawei']
+    'name': 'Rizwan',
+    'age': 21,
+    'fav_movies': ['Tare Naam', 'Race'],
+    'fav_tunes': ['iphone', 'huawei'],
+    'fav_songs': ['song1', 'song2'],
 }
 
-#  How to add data in dictionary
-user_info['fav_songs'] = ['song1', 'song2']
+
 print(user_info)
 # pop() method: it delete a selected item/data, it is like a list data type
 popped = user_info.pop('fav_movies')

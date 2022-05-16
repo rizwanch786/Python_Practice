@@ -2,9 +2,6 @@
 #  it show just one
 
 def word_counter(s):
-    count = {}
-    for i in s:
-        count[i] = s.count(i)
-    return count
+    return {i: s.count(i) for i in s}
 
 print (word_counter('Rizwaan'))

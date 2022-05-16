@@ -16,10 +16,7 @@ l = ['Rizwan', 'Ali', 'Khalique']
 # 1) list containing string
 # 2) string that want to find in your list and this function will return index of string in your list and if string is not present then return -1.
 def func(l,s):
-    for pos, name in enumerate(l):
-        if s == name:
-            return pos
-    return -1
+    return next((pos for pos, name in enumerate(l) if s == name), -1)
 
 string = 'Ali'
 print(func(l,string))

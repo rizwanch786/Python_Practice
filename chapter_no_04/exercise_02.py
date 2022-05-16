@@ -5,19 +5,14 @@
 #         else:
 #             return False """
 
-def is_palindrome (string):
+def is_palindrome(string):
     reverse_string = string[::-1]
-    if string == reverse_string:
-        return True
-    else:
-        return False
+    return string == reverse_string
 
 
 
 user_input = input ("Enter a string: ")
-b = is_palindrome (user_input)
-
-if b:
+if b := is_palindrome(user_input):
     print("Palindrome")
 else:
     print ("Not Palindrome")

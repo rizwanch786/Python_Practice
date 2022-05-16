@@ -375,7 +375,7 @@ def Receipt():
     txtReceipt.delete("1.0",END)
     x=random.randint(10908,500876)
     randomRef= str(x)
-    Receipt_Ref.set("Bill"+ randomRef)
+    Receipt_Ref.set(f"Bill{randomRef}")
 
 
     txtReceipt.insert(END,'Receipt Ref:\t\t\t'+Receipt_Ref.get() +'\t'+ DateofOrder.get() +'\n')

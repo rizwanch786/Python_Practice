@@ -12,8 +12,8 @@ class Person:
         self.age = age
 
     @classmethod
-    def count_instance(cl):
-        return f"you have created {cl.count} Instance in class {cl.__name__}"
+    def count_instance(cls):
+        return f"you have created {cls.count} Instance in class {cls.__name__}"
 
 
 # object's

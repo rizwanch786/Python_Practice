@@ -36,8 +36,8 @@ print(user_info_keys)
 print(type(user_info_keys))
 
 # if we want to display values with the help of keys
-for i in user_info:
-    print(user_info[i])
+for value_ in user_info.values():
+    print(value_)
 
 # item() method: it give both key and its value in the form of tuple
 user_info_items = user_info.items()

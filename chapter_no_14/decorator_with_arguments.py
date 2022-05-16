@@ -3,7 +3,7 @@ def only_data_type_allow(data_type):
     def decorator(function):
         @wraps(function)
         def wrapper(*args, **kwargs):
-            if all([type(arg) == data_type for arg in args]):
+            if all(type(arg) == data_type for arg in args):
                 return function(*args, **kwargs)
             print("invalid input")
         return wrapper
@@ -13,10 +13,7 @@ def only_data_type_allow(data_type):
 # here we pass a string data type bcz we want to use string concatination function
 @only_data_type_allow(str)
 def string_join(*args):
-    string = ''
-    for i in args:
-        string += i
-    return string
+    return ''.join(args)
 
 # call
 print(string_join('Rizwan'," ",' Anwar'))

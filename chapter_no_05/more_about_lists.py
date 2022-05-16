@@ -17,16 +17,11 @@ numbers = list(range(1,11))
 
 # Pass list to a function
 def reverse(l):
-    rev = []
-    for i in l:
-        rev.append(i)
+    rev = list(l)
     return l[: : -1]
 
 def negative_list(l):
-    negative = []
-    for i in l:
-        negative.append(-i)
-    return negative
+    return [-i for i in l]
 
 
 print (reverse(numbers))

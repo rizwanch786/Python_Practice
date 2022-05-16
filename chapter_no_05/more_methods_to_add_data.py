@@ -2,7 +2,7 @@
 Append method insert an item at the last of string 
 but insert method is used to insert item in lost at a specific index of position.
 """
-fruits1  = ["Apple", "Mango"]
+
 # fruits1.insert(1,"Grapes") # insert item at the mid 
 # # fruits1.insert(2,"Grapes") # insert item at the last
 # print (fruits1)
@@ -20,7 +20,7 @@ fruits2 = ["Grapes","Banana"]
 """ Append Method with Lists:
 To join lists if append method is used instead of extends method then append method will append list in other list.
 """
-fruits1.append(fruits2)
+fruits1 = ["Apple", "Mango", fruits2]
 print(fruits1)
 
 #  Extend() method is more better than Append() method

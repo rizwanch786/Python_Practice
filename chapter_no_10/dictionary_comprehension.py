@@ -19,12 +19,7 @@ for key, value in new_list.items():
 # d = {1:'odd', 2:'even'}
 d = {i:('even' if i%2 == 0 else 'odd') for i in range (1,11)}
 print(d)
-d1 = {}
-for i in range (1,11):
-    if i%2 == 0:
-        d1[i] = 'even'
-    else:
-        d1[i] = 'odd' 
+d1 = {i: 'even' if i%2 == 0 else 'odd' for i in range (1,11)}
 print (d1)
 
 for key,value in d1.items():
